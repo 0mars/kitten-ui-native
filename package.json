@@ -1,0 +1,45 @@
+{
+  "name": "kitten-tricks",
+  "version": "2.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "akveo <contact@akveo.com>",
+  "repository": "git+https://github.com/akveo/kittenTricks.git",
+  "bugs": {
+    "url": "https://github.com/akveo/kittenTricks/issues"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "react-native start",
+    "start:ios": "react-native run-ios",
+    "start:android": "react-native run-android",
+    "android": "react-native run-android",
+    "postinstall": "react-native link"
+  },
+  "dependencies": {
+    "@eva-design/eva": "^1.2.0",
+    "@ui-kitten/eva-icons": "^4.2.0",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-native-keyboard-aware-scroll-view": "^0.9.1",
+    "react-native-reanimated": "^1.4.0",
+    "react-native-screens": "^2.0.0-alpha.6",
+    "react-native-svg": "^9.9.4",
+    "react-native-ui-kitten": "^4.2.0",
+    "react-navigation": "^4.0.10",
+    "react-navigation-stack": "^1.10.3",
+    "react-navigation-tabs": "^2.5.6",
+    "react-transform-hmr": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "@types/react": "^16.9.2",
+    "@types/react-native": "^0.60.14",
+    "metro-react-native-babel-preset": "0.54.1",
+    "typescript": "^3.6.3"
+  }
+}
