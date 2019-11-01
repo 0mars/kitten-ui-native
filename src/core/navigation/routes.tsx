@@ -35,8 +35,8 @@ import {
   SignIn4Container,
   SignIn5Container,
   SignUp1Container,
-  SignUp2Container,
-  SignUp3Container,
+  // SignUp2Container,
+  // SignUp3Container,
   SignUp4Container,
 } from '@src/containers/layouts/auth';
 import {
@@ -52,7 +52,7 @@ import {
   PaymentContainer,
   ProductDetailsContainer,
   ProductsListContainer,
-  RentApartmentContainer,
+  // RentApartmentContainer,
   ShoppingCartContainer,
 } from '@src/containers/layouts/ecommerce';
 import {
@@ -125,10 +125,10 @@ const EcommerceNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp>
     screen: ShoppingCartContainer,
     navigationOptions: EcommerceNavigationOptions,
   },
-  ['Rent Apartment']: {
-    screen: RentApartmentContainer,
-    navigationOptions: EcommerceNavigationOptions,
-  },
+  // ['Rent Apartment']: {
+  //   screen: RentApartmentContainer,
+  //   navigationOptions: EcommerceNavigationOptions,
+  // },
   ['Movie Details']: {
     screen: MovieDetailsContainer,
     navigationOptions: EcommerceNavigationOptions,
@@ -253,9 +253,9 @@ const AuthNavigationMap: NavigationRouteConfigMap<any, NavigationStackProp> = {
   ['Sign In 4']: SignIn4Container,
   ['Sign In 5']: SignIn5Container,
   ['Sign Up 1']: SignUp1Container,
-  ['Sign Up 2']: SignUp2Container,
-  ['Sign Up 3']: SignUp3Container,
-  ['Sign Up 4']: SignUp4Container,
+  // ['Sign Up 2']: SignUp2Container,
+  // ['Sign Up 3']: SignUp3Container,
+  // ['Sign Up 4']: SignUp4Container,
   ['Forgot Password']: ForgotPasswordContainer,
 };
 
